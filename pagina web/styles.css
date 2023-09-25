@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*Contenedor superior*/
+header{
+    width: 100%;
+    background: rgba(6,17,33,255);
+    height: 80px;
+}
+/*Body*/
+body{
+    background-color: rgb(1, 0, 14);
+}
+/*Contenedor secundario*/
+.Barrasuperior{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+}
+/*Subscontenedores*/
+.logo{
+    width: 40%;
+    height: 80px;
+    float: left;
+}
+
+.Barrasuperior nav{
+    width: 60%;
+    height: 80px;
+    float: right;
+    text-align: right;
+    padding-top: 28px;
+    box-sizing: border-box;
+    
+}
+/*Subscontenedores de .logo*/
+.logo img{
+    width: 60px;
+    height: 60px;
+    padding-left: 45px;
+    padding-top: 10px;
+    margin: auto;
+    float: left;
+}
+
+.logo p a{
+    width: 72%;
+    height: 80px;
+    font-size: 40px;
+    float: right;
+    padding-top: 17px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Letra;
+
+
+}
+/*Subscontenedores de nav*/
+.Barrasuperior nav ul li{
+    display: inline;
+}
+.Barrasuperior nav ul li a{
+    font-size: 20px;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Letra;
+    transition: 1s;
+}
+.Barrasuperior nav ul li a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+.contenedor {
+    border: 1px solid black;
+    width: 90%;
+    height: 1350px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(6,17,33,255);
+}
+
+.contenedor-secundario {
+    width: 33%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 5px;
+    float: right;
+    transition: 1s;
+}
+
+.contenedor-secundario:hover{
+    background-color: rgb(1, 0, 14);
+    transition: 1s;
+}
+
+.contenedor-secundario img{
+    width: 80%;
+    height: 80%;
+    padding-top: 21px;
+    padding-left: 38px;
+    margin: auto;
+    float: left;
+    
+}
+
+.contenedor-secundario button{
+    width: 100%;
+    height: 100px;
+    font-size: 25px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    font-family: Letra;
+    margin: auto;
+    transition: 1s;
+}
+.contenedor-secundario button a{
+    font-family: Letra;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+
+}
+.contenedor-secundario button:hover{
+    color: aliceblue;
+    background-color: rgb(3, 0, 32);
+    cursor: pointer;
+    transition: 1s;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*Contenedor inferior*/
+.headerinferior{
+    width: 100%;
+    background: rgba(6,17,33,255);
+    height: 160px;
+    bottom: 0;
+}
+/*Contenedor secundario*/
+.barrainferior{
+    width: 90%;
+    margin: auto;
+    height: 80px;
+}
+/*Subscontenedores*/
+.barrainferior nav{
+    width: 25%;
+    float: left;
+    margin-top: 10px;
+
+}
+.logo2{
+    width: 20%;
+    height: 80px;
+    float: left;
+}
+
+/*Subscontenedores de nav*/
+.barrainferior nav ul li a{
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Letra;
+    transition: 1s;
+}
+.barrainferior nav ul li b{
+    font-size: 20px;
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    padding-left: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Letra;
+    transition: 1s;
+}
+.barrainferior nav ul li a:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+.barrainferior nav ul li b:hover{
+    color: aliceblue;
+    transition: 1s;
+}
+
+/*Subscontenedores de .logo*/
+.logo2 img{
+    width: 120px;
+    height: 120px;
+    padding-top: 21px;
+    padding-left: 45px;
+    margin: auto;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Letra;
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
